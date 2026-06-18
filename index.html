@@ -33,7 +33,7 @@
       font-size: 16px;
     }
 
-    /* ── NAV ── */
+    /* NAV */
     .nav {
       position: fixed;
       top: 0;
@@ -64,9 +64,7 @@
       letter-spacing: 1px;
     }
 
-    .nav-logo span {
-      color: var(--dourado);
-    }
+    .nav-logo span { color: var(--dourado); }
 
     .nav-links {
       display: flex;
@@ -84,9 +82,7 @@
       transition: color 0.3s;
     }
 
-    .nav-links a:hover {
-      color: var(--dourado);
-    }
+    .nav-links a:hover { color: var(--dourado); }
 
     .nav-hamburger {
       display: none;
@@ -106,7 +102,7 @@
       transition: 0.3s;
     }
 
-    /* ── HERO ── */
+    /* HERO */
     .hero {
       margin-top: 72px;
       padding: 120px 24px 100px;
@@ -169,23 +165,12 @@
       transition: background 0.3s;
     }
 
-    .hero-btn:hover {
-      background: var(--dourado-claro);
-    }
+    .hero-btn:hover { background: var(--dourado-claro); }
 
-    /* ── SECTIONS ── */
-    .section {
-      padding: 100px 24px;
-    }
-
-    .section-alt {
-      background: var(--creme);
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 0 auto;
-    }
+    /* SECTIONS */
+    .section { padding: 100px 24px; }
+    .section-alt { background: var(--creme); }
+    .container { max-width: 1100px; margin: 0 auto; }
 
     .section-eyebrow {
       font-size: 12px;
@@ -211,7 +196,7 @@
       line-height: 1.8;
     }
 
-    /* ── SOBRE ── */
+    /* SOBRE */
     .sobre-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -288,7 +273,7 @@
       letter-spacing: 1.5px;
     }
 
-    /* ── PRODUTOS ── */
+    /* PRODUTOS */
     .produtos-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -296,9 +281,7 @@
       margin-top: 48px;
     }
 
-    .produto-card {
-      text-align: center;
-    }
+    .produto-card { text-align: center; }
 
     .produto-icon {
       width: 100%;
@@ -337,7 +320,7 @@
       line-height: 1.6;
     }
 
-    /* ── DEPOIMENTOS ── */
+    /* DEPOIMENTOS */
     .depoimentos-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -378,7 +361,7 @@
       color: var(--texto-leve);
     }
 
-    /* ── CONTATO ── */
+    /* CONTATO */
     .contato-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -447,9 +430,7 @@
     }
 
     .form-group input:focus,
-    .form-group textarea:focus {
-      border-color: var(--dourado);
-    }
+    .form-group textarea:focus { border-color: var(--dourado); }
 
     .form-group textarea {
       resize: vertical;
@@ -478,11 +459,9 @@
       align-self: flex-start;
     }
 
-    .form-btn:hover {
-      background: var(--marrom-medio);
-    }
+    .form-btn:hover { background: var(--marrom-medio); }
 
-    /* ── FOOTER ── */
+    /* FOOTER */
     .footer {
       background: var(--marrom-escuro);
       color: rgba(255,255,255,0.7);
@@ -520,13 +499,8 @@
       margin-bottom: 20px;
     }
 
-    .footer-links {
-      list-style: none;
-    }
-
-    .footer-links li {
-      margin-bottom: 10px;
-    }
+    .footer-links { list-style: none; }
+    .footer-links li { margin-bottom: 10px; }
 
     .footer-links a {
       color: rgba(255,255,255,0.6);
@@ -535,9 +509,7 @@
       transition: color 0.3s;
     }
 
-    .footer-links a:hover {
-      color: var(--dourado-claro);
-    }
+    .footer-links a:hover { color: var(--dourado-claro); }
 
     /* RODAPÉ LEGAL (CRÍTICO BOV) */
     .footer-legal {
@@ -549,13 +521,8 @@
       color: rgba(255,255,255,0.5);
     }
 
-    .footer-legal-dados {
-      margin-bottom: 12px;
-    }
-
-    .footer-legal-dados p {
-      margin-bottom: 2px;
-    }
+    .footer-legal-dados { margin-bottom: 12px; }
+    .footer-legal-dados p { margin-bottom: 2px; }
 
     .footer-legal-copy {
       border-top: 1px solid rgba(255,255,255,0.08);
@@ -573,16 +540,14 @@
       transition: color 0.3s;
     }
 
-    .footer-legal-copy a:hover {
-      color: var(--dourado-claro);
-    }
+    .footer-legal-copy a:hover { color: var(--dourado-claro); }
 
     .footer-legal-links {
       display: flex;
       gap: 20px;
     }
 
-    /* ── MODAL POLÍTICA / TERMOS ── */
+    /* MODAL */
     .modal-overlay {
       display: none;
       position: fixed;
@@ -594,9 +559,7 @@
       padding: 24px;
     }
 
-    .modal-overlay.active {
-      display: flex;
-    }
+    .modal-overlay.active { display: flex; }
 
     .modal {
       background: var(--branco);
@@ -655,7 +618,7 @@
       z-index: 1;
     }
 
-    /* ── RESPONSIVE ── */
+    /* RESPONSIVE */
     @media (max-width: 900px) {
       .nav-links { display: none; }
       .nav-hamburger { display: flex; }
@@ -723,7 +686,7 @@
       <div class="sobre-grid">
         <div>
           <p class="section-text">
-            A Mr. Cat é uma empresa brasileira do segmento de calçados e acessórios em couro, com sede no Rio de Janeiro. Atuamos no comércio varejista oferecendo produtos que combinam qualidade, conforto e design atemporal para homens e mulheres que valorizam sofisticação no dia a dia.
+            A Mr. Cat é uma empresa brasileira do segmento de calçados e acessórios em couro, com sede no Rio de Janeiro. Atuamos no comércio varejista e atacadista oferecendo produtos que combinam qualidade, conforto e design atemporal para homens e mulheres que valorizam sofisticação no dia a dia.
           </p>
           <p class="section-text" style="margin-top: 16px;">
             Nosso compromisso é entregar peças produzidas com materiais selecionados, garantindo durabilidade e um acabamento que reflete a tradição do trabalho em couro. Cada produto é pensado para acompanhar diferentes momentos da rotina, do ambiente profissional ao lazer.
@@ -784,8 +747,8 @@
               <circle cx="24" cy="28" r="3"/>
             </svg>
           </div>
-          <h3>Bolsas</h3>
-          <p>Bolsas, pastas e mochilas com funcionalidade e elegância.</p>
+          <h3>Bolsas e Malas</h3>
+          <p>Bolsas, pastas, malas e mochilas com funcionalidade e elegância.</p>
         </div>
         <div class="produto-card">
           <div class="produto-icon">
@@ -795,8 +758,8 @@
               <rect x="14" y="24" width="20" height="12" rx="2"/>
             </svg>
           </div>
-          <h3>Acessórios de Viagem</h3>
-          <p>Malas, nécessaires e organizadores para quem viaja com estilo.</p>
+          <h3>Vestuário e Acessórios</h3>
+          <p>Roupas, cintos, carteiras e acessórios em couro e tecidos nobres.</p>
         </div>
         <div class="produto-card">
           <div class="produto-icon">
@@ -805,8 +768,8 @@
               <path d="M24 14v10l6 6"/>
             </svg>
           </div>
-          <h3>Acessórios</h3>
-          <p>Cintos, carteiras, porta-documentos e bijuterias selecionadas.</p>
+          <h3>Artigos de Viagem</h3>
+          <p>Nécessaires, organizadores e acessórios para quem viaja com estilo.</p>
         </div>
       </div>
     </div>
@@ -855,7 +818,7 @@
             <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
             <div>
               <h4>Endereço</h4>
-              <p>R. Teixeira de Freitas, 31, Sala 014<br>Centro, Rio de Janeiro/RJ<br>CEP: 20.021-350</p>
+              <p>R. do Couto, 476<br>Penha, Rio de Janeiro/RJ<br>CEP: 21.020-410</p>
             </div>
           </div>
           <div class="contato-info-item">
@@ -936,15 +899,16 @@
     <div class="footer-legal">
       <div class="footer-legal-dados">
         <p><strong>Razão Social:</strong> Ilhas Tijucas Comércio de Couros e Vestuário Ltda</p>
-        <p><strong>CNPJ:</strong> 37.580.929/0001-47</p>
-        <p><strong>Endereço:</strong> R. Teixeira de Freitas, 31, Sala 014, Centro, Rio de Janeiro/RJ, CEP 20.021-350</p>
+        <p><strong>Nome Fantasia:</strong> Mr. Cat</p>
+        <p><strong>CNPJ:</strong> 37.580.929/0016-23 (Filial)</p>
+        <p><strong>Endereço:</strong> R. do Couto, 476, Penha, Rio de Janeiro/RJ, CEP 21.020-410</p>
         <p><strong>Telefone:</strong> (21) 3222-9219</p>
         <p><strong>E-mail:</strong> grupo.fiscal@mrcat.com.br</p>
         <p><strong>Natureza Jurídica:</strong> Sociedade Empresária Limitada</p>
-        <p><strong>Atividade Principal:</strong> 47.82-2-01 - Comércio varejista de calçados</p>
-        <p><strong>Atividades Secundárias:</strong> 47.81-4-00 - Comércio varejista de artigos do vestuário e acessórios | 47.82-2-02 - Comércio varejista de artigos de viagem | 47.89-0-01 - Comércio varejista de suvenires, bijuterias e artesanatos</p>
-        <p><strong>Situação Cadastral:</strong> Ativa desde 01/07/2020</p>
-        <p><strong>Inscrição:</strong> Matriz</p>
+        <p><strong>Atividade Principal:</strong> 46.43-5-01 - Comércio atacadista de calçados</p>
+        <p><strong>Atividades Secundárias:</strong> 46.42-7-01 - Comércio atacadista de artigos do vestuário e acessórios, exceto profissionais e de segurança | 46.43-5-02 - Comércio atacadista de bolsas, malas e artigos de viagem | 47.81-4-00 - Comércio varejista de artigos do vestuário e acessórios | 47.82-2-01 - Comércio varejista de calçados | 47.82-2-02 - Comércio varejista de artigos de viagem | 47.89-0-01 - Comércio varejista de suvenires, bijuterias e artesanatos</p>
+        <p><strong>Situação Cadastral:</strong> Ativa desde 12/01/2021</p>
+        <p><strong>Inscrição:</strong> Filial</p>
       </div>
       <div class="footer-legal-copy">
         <span>&copy; 2026 Mr. Cat - Ilhas Tijucas Comércio de Couros e Vestuário Ltda. Todos os direitos reservados.</span>
@@ -961,10 +925,10 @@
     <div class="modal">
       <button class="modal-close" onclick="closeModal('privacidade')">&times;</button>
       <h2>Política de Privacidade</h2>
-      <p class="modal-empresa">Ilhas Tijucas Comércio de Couros e Vestuário Ltda | CNPJ: 37.580.929/0001-47</p>
+      <p class="modal-empresa">Ilhas Tijucas Comércio de Couros e Vestuário Ltda | CNPJ: 37.580.929/0016-23 (Filial)</p>
 
       <h3>1. Informações Gerais</h3>
-      <p>Esta Política de Privacidade descreve como a Ilhas Tijucas Comércio de Couros e Vestuário Ltda, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 37.580.929/0001-47, com sede na R. Teixeira de Freitas, 31, Sala 014, Centro, Rio de Janeiro/RJ, CEP 20.021-350, operando sob o nome fantasia Mr. Cat, coleta, utiliza, armazena e protege as informações pessoais dos visitantes e clientes deste site.</p>
+      <p>Esta Política de Privacidade descreve como a Ilhas Tijucas Comércio de Couros e Vestuário Ltda, pessoa jurídica de direito privado, inscrita no CNPJ sob o nº 37.580.929/0016-23, com sede na R. do Couto, 476, Penha, Rio de Janeiro/RJ, CEP 21.020-410, operando sob o nome fantasia Mr. Cat, coleta, utiliza, armazena e protege as informações pessoais dos visitantes e clientes deste site.</p>
 
       <h3>2. Dados Coletados</h3>
       <p>Podemos coletar as seguintes informações quando você interage com nosso site: nome completo, endereço de e-mail, número de telefone, e mensagens enviadas pelo formulário de contato. Também coletamos automaticamente dados de navegação, como endereço IP, tipo de navegador e páginas visitadas, por meio de cookies e tecnologias similares.</p>
@@ -990,9 +954,10 @@
       <h3>9. Contato</h3>
       <p>Para dúvidas ou solicitações relacionadas à privacidade dos seus dados, entre em contato:<br>
         <strong>Ilhas Tijucas Comércio de Couros e Vestuário Ltda</strong><br>
+        CNPJ: 37.580.929/0016-23 (Filial)<br>
         E-mail: grupo.fiscal@mrcat.com.br<br>
         Telefone: (21) 3222-9219<br>
-        Endereço: R. Teixeira de Freitas, 31, Sala 014, Centro, Rio de Janeiro/RJ, CEP 20.021-350
+        Endereço: R. do Couto, 476, Penha, Rio de Janeiro/RJ, CEP 21.020-410
       </p>
     </div>
   </div>
@@ -1002,13 +967,13 @@
     <div class="modal">
       <button class="modal-close" onclick="closeModal('termos')">&times;</button>
       <h2>Termos de Uso</h2>
-      <p class="modal-empresa">Ilhas Tijucas Comércio de Couros e Vestuário Ltda | CNPJ: 37.580.929/0001-47</p>
+      <p class="modal-empresa">Ilhas Tijucas Comércio de Couros e Vestuário Ltda | CNPJ: 37.580.929/0016-23 (Filial)</p>
 
       <h3>1. Aceitação dos Termos</h3>
       <p>Ao acessar e utilizar o site cadeoneyney.online, você concorda com os presentes Termos de Uso. Caso não concorde com alguma das disposições aqui estabelecidas, solicitamos que interrompa o uso do site.</p>
 
       <h3>2. Identificação da Empresa</h3>
-      <p>Este site é de propriedade e operado pela Ilhas Tijucas Comércio de Couros e Vestuário Ltda, inscrita no CNPJ sob o nº 37.580.929/0001-47, com sede na R. Teixeira de Freitas, 31, Sala 014, Centro, Rio de Janeiro/RJ, CEP 20.021-350, operando sob o nome fantasia Mr. Cat.</p>
+      <p>Este site é de propriedade e operado pela Ilhas Tijucas Comércio de Couros e Vestuário Ltda, inscrita no CNPJ sob o nº 37.580.929/0016-23 (Filial), com sede na R. do Couto, 476, Penha, Rio de Janeiro/RJ, CEP 21.020-410, operando sob o nome fantasia Mr. Cat.</p>
 
       <h3>3. Uso do Site</h3>
       <p>O conteúdo deste site tem caráter informativo e institucional, apresentando os produtos e serviços oferecidos pela Mr. Cat. O visitante compromete-se a utilizar o site de forma lícita, respeitando a legislação brasileira vigente e os direitos de terceiros.</p>
@@ -1031,27 +996,25 @@
       <h3>9. Contato</h3>
       <p>Para dúvidas ou solicitações, entre em contato:<br>
         <strong>Ilhas Tijucas Comércio de Couros e Vestuário Ltda</strong><br>
+        CNPJ: 37.580.929/0016-23 (Filial)<br>
         E-mail: grupo.fiscal@mrcat.com.br<br>
         Telefone: (21) 3222-9219<br>
-        Endereço: R. Teixeira de Freitas, 31, Sala 014, Centro, Rio de Janeiro/RJ, CEP 20.021-350
+        Endereço: R. do Couto, 476, Penha, Rio de Janeiro/RJ, CEP 21.020-410
       </p>
     </div>
   </div>
 
   <script>
-    // Mobile nav
     document.getElementById('hamburger').addEventListener('click', function() {
       document.getElementById('navLinks').classList.toggle('open');
     });
 
-    // Close mobile nav on link click
     document.querySelectorAll('.nav-links a').forEach(function(link) {
       link.addEventListener('click', function() {
         document.getElementById('navLinks').classList.remove('open');
       });
     });
 
-    // Modals
     function openModal(type) {
       document.getElementById('modal-' + type).classList.add('active');
       document.body.style.overflow = 'hidden';
@@ -1062,7 +1025,6 @@
       document.body.style.overflow = '';
     }
 
-    // Close modal on overlay click
     document.querySelectorAll('.modal-overlay').forEach(function(overlay) {
       overlay.addEventListener('click', function(e) {
         if (e.target === overlay) {
@@ -1072,7 +1034,6 @@
       });
     });
 
-    // Close modal on Escape
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') {
         document.querySelectorAll('.modal-overlay.active').forEach(function(m) {
@@ -1082,7 +1043,6 @@
       }
     });
 
-    // Form submit feedback
     document.querySelector('.form-btn').addEventListener('click', function() {
       var nome = document.getElementById('nome').value;
       var email = document.getElementById('email').value;
